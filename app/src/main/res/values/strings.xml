@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Find A Pizza</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome</string>
+    <string name="controller_txt">Check pizzas around you!</string>
+    <string name="type">food</string>
+    <string name="place">school</string>
+    <string name="keyword">pizza</string>
+    <string name="no_record">No places found!</string>
+    <string name="away">away</string>
+    <string name="radius">Radius</string>
+    <string name="network_title">Network Error</string>
+    <string name="network_message">No Internet Connection.</string>
+
+    <string name="radius_key">Radius</string>
+    <string name="location_key">Location</string>
+
+
+    <string name="api_key">AIzaSyBrPlqkvdlnTd7t6lMO2pPBzFO2YrO0LQk</string>
+    <string name="ad_app_id">ca-app-pub-7109673847286976~9240379515</string>
+    <string name="ad_unit_id">ca-app-pub-7109673847286976/7927297849</string>
+    <string name="test_ad_unit_id">ca-app-pub-3940256099942544/6300978111
+</string>
+
+
+
+</resources>

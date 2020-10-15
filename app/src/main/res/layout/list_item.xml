@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	>
+
+    <RelativeLayout
+        android:id="@+id/cell_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+
+		android:background="@drawable/list_cell_states"
+        android:layout_marginTop="2dp" >
+
+	        <ImageView
+	            android:id="@+id/place_icon"
+	            android:layout_width="50dip"
+	            android:layout_height="50dip"
+				android:layout_marginLeft="5dp"
+				android:layout_alignParentLeft="true"
+				android:background="#FFFFFF"
+	            android:layout_centerVertical="true"
+	            android:layout_centerHorizontal="true"
+	           />
+
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/place_icon"
+			android:layout_centerVertical="true"
+			>
+        <TextView
+            android:id="@+id/record_name"
+            android:layout_width="180dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="abs"
+			android:fontFamily="@font/arvo"
+            android:textSize="15sp"
+			android:textColor="@color/quantum_white_100"
+			/>
+
+        <TextView
+            android:id="@+id/record_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/record_name"
+            android:layout_marginLeft="8dip"
+			android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+			android:fontFamily="@font/arvo"
+            android:text="4 km"
+        	android:textColor="@color/quantum_white_100"/>
+		</RelativeLayout>
+
+			<ImageView
+            android:id="@+id/iv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:src="@drawable/offline_status"/>
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/iv_status"
+            android:layout_marginRight="4dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+			android:fontFamily="@font/arvo"
+            android:text="Status"
+        	android:textColor="@color/quantum_white_100"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.activity.SplashActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        app:srcCompat="@drawable/app_icon" />
+
+    <TextView
+        android:id="@+id/app_name_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/quantum_white_100"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/welcome_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_name_view"
+        android:layout_marginTop="178dp"
+        android:text="@string/welcome"
+        android:fontFamily="@font/arvo"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/quantum_white_100"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/controller_txt"
+        android:textColor="@color/quantum_white_100"
+        android:textSize="20dp"
+        android:fontFamily="@font/arvo"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/welcome_textview"/>
+</RelativeLayout>
